@@ -34,47 +34,52 @@
     color: var(--text-color);
     font-family: 'Gentium Book Plus', serif;
   }
+
+  :root {
+    font-size: 62.5%;
+  }
+
   a {
     text-decoration: none;
   }
   .container {
     text-align: center;
-    width: 300px;
-    margin: 60px auto;
+    width: 30rem;
+    margin: 6rem auto;
   }
   h1 {
-    font-size: 32px;
+    font-size: 3.2rem;
     color: black;
-    margin-top: 24px;
-    margin-bottom: 8px;
+    margin-top: 2.4rem;
+    margin-bottom: 0.8rem;
   
   }
   
   img {
     border-radius: 50%;
-    width: 170px;
-    height: 170px;
-    padding: 3.7px;
-    border: var(--pimary-color) solid 4px;
+    width: 17rem;
+    height: 17rem;
+    padding: 0.37rem;
+    border: var(--pimary-color) solid 0.4rem;
   }
   
   ul {
     list-style: none;
-    margin: 48px 0;
+    margin: 4.8rem 0;
   }
   
   
   ul li a {
-    height: 53px;
+    height: 5.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
     text-transform: lowercase;
     color: var(--text-color);
-    font-size: 14px;
-    margin-bottom: 16px;
-    border-radius: 6px;
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+    border-radius: 0.6rem;
     transition: background 400ms;
   }
   
@@ -86,7 +91,7 @@
     font-family: 'Roboto Mono', monospace;
     color: var(--text-color);
     opacity: 0.6;
-    font-size: 14px;
+    font-size: 1.4rem;
     transition: opacity 400ms;
   }
   
@@ -95,7 +100,7 @@
   }
   footer {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 1.2rem;
     opacity: 0.6;
     transition: opacity 400ms;
   }
